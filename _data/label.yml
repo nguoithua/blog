@@ -1,19 +1,19 @@
 # The label text of site.
 
 panel:
-  lastmod: Recent Update
-  trending_tags: Trending Tags
-  toc: Contents
+  lastmod: recent update
+  trending_tags: trending tags
+  toc: contents
 
 post:
-  relate_posts: Further Reading
-  share: Share
+  relate_posts: further reading
+  share: share
   button:
-    next: Newer
-    previous: Older
+    next: newer
+    previous: older
 
-search_hint: Search   # text show on search bar
+search_hint: search   # text show on search bar
 
-pin_prompt: Pinned    # pinned prompt
+pin_prompt: pinned    # pinned prompt
 
 read_time_unit: min   # see posts' time to read

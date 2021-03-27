@@ -10,7 +10,7 @@
 
     {% if paths.size == 0 %}
       <!-- index page -->
-      <span>{{ 'Posts' }}</span>
+      <span>{{ 'posts' }}</span>
     {% else %}
 
       {% for item in paths %}
@@ -18,7 +18,7 @@
         {% if forloop.first %}
           {% unless page.layout == 'post' %}
           <span>
-            <a href="{{ '/' | relative_url }}">{{ 'Home' }}</a>
+            <a href="{{ '/' | relative_url }}">{{ 'home' }}</a>
           </span>
           {% endunless %}
 
@@ -63,7 +63,7 @@
         aria-label="search" placeholder="{{ site.data.label.search_hint | default: 'Search' }}...">
       <i class="fa fa-times-circle fa-fw" id="search-cleaner"></i>
     </span>
-    <span id="search-cancel" >Cancel</span>
+    <span id="search-cancel" >cancel</span>
   </div>
 
 </div>
